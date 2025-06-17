@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex10</title>
+    <link rel="stylesheet" href="./ex10.css">
+</head>
+<body>
+    <header>
+        <a href="../../index.html"><img src="../../img/JavaScript_LogoHeader.webp" alt=""></a>
+        <h1>JavaScript</h1>
+            <div id="horario"></div>
+            <nav>
+                <div id="menu" onclick="clickmenu()">
+                    <div class="linhas"></div>
+                    <div class="linhas"></div>
+                    <div class="linhas"></div>
+                </div>
+            </nav>
+    </header>
+    <section>
+        <h1>Qual número é maior?</h1>
+        <P>Digite o valor do primeiro número</P> <input type="number" id="numero1" placeholder="número 1">
+        <p>Digite o valor do segundo número</p> <input type="number" id="numero2" placeholder="número 2">
+        <button onclick="decisao()">Decidir</button>
+        <div id="text">Aguardando comando...</div>
+    </section>
+    <script src="./ex10.js"></script>
+</body>
+</html>

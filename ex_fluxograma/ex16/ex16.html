@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex16</title>
+    <link rel="stylesheet" href="./ex16.css">
+</head>
+<body>
+    <header>
+        <a href="../../index.html"><img src="../../img/JavaScript_LogoHeader.webp" alt=""></a>
+        <h1>JavaScript</h1>
+            <div id="horario"></div>
+            <nav>
+                <div id="menu" onclick="clickmenu()">
+                    <div class="linhas"></div>
+                    <div class="linhas"></div>
+                    <div class="linhas"></div>
+                </div>
+            </nav>
+    </header>
+    <section>
+        <h1>Bônus de vendas</h1>
+        <p>Digite seu salário</p> <input type="number" id="salario" placeholder="Salário">
+        <p>Digite o número de vendas realizadas</p> <input type="number" id="vendas" placeholder="Vendas">
+        <button onclick="calcular()">Calcular</button>
+        <div id="text">Aguardando comando...</div>
+    </section>
+    <script src="./ex16.js"></script>
+</body>
+</html>

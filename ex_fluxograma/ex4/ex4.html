@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Ex4.css">
+    <title>Ex4</title>
+</head>
+<body>
+    <header>
+        <a href="../../index.html"><img src="../../img/JavaScript_LogoHeader.webp" alt=""></a>
+        <h1>JavaScript</h1>
+            <div id="horario"></div>
+            <nav>
+                    <div id="menu" onclick="clickmenu()">
+                        <div class="linhas"></div>
+                        <div class="linhas"></div>
+                        <div class="linhas"></div>
+                    </div>
+            </nav>
+    </header>
+    <section>
+        <h1>Conversão em Reais</h1>
+        Quantidade da Moeda <input type="number" id="quantidade_moeda">
+        Cotação da moeda <input type="number" id="cotacao">
+        <button onclick="converter()">Converter</button>
+        <div id="res">Aguardando...</div>
+    </section>
+    <script src="./ex4.js"></script>
+</body>
+</html>

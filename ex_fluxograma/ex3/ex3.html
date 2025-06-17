@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ex3.css">
+    <title>Ex2</title>
+</head>
+<body>
+    <header>
+        <a href="../../index.html"><img src="../../img/JavaScript_LogoHeader.webp" alt=""></a>
+        <h1>JavaScript</h1>
+            <div id="horario"></div>
+            <nav>
+                    <div id="menu" onclick="clickmenu()">
+                        <div class="linhas"></div>
+                        <div class="linhas"></div>
+                        <div class="linhas"></div>
+                    </div>
+            </nav>
+    </header>
+    <section>
+        <h1>Cálculo de volume</h1>
+        <P>Altura</P> <input type="Number" id="altura" placeholder="Altura">
+        <P>Comprimento</P> <input type="Number" id="comprimento" placeholder="Comprimento">
+        <P>Largura</P> <input type="Number" id="largura" placeholder="Largura">
+        <button onclick="operacao()">Cálculo</button>
+        <div id="volume">Aguardando comando...</div>
+    </section>
+    <script src="./ex3.js"></script>
+</body>
+</html>

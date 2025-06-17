@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex8</title>
+    <link rel="stylesheet" href="./ex8.css">
+</head>
+<body>
+    <header>
+        <a href="../../index.html"><img src="../../img/JavaScript_LogoHeader.webp" alt=""></a>
+        <h1>JavaScript</h1>
+            <div id="horario"></div>
+            <nav>
+                <div id="menu" onclick="clickmenu()">
+                    <div class="linhas"></div>
+                    <div class="linhas"></div>
+                    <div class="linhas"></div>
+                </div>
+            </nav>
+    </header>
+    <section>
+        <h1>Calculo do IMC (Índice de Massa Corporal)</h1>
+        <P>Digite o valor da massa em Kg</P> <input type="number" id="massa" placeholder="Massa">
+        <P>Digite o valor da altura em metros</P> <input type="number" id="altura" placeholder="Altura">
+        <button onclick="calcular()">Calcular</button>
+        <div id="text">Aguardando comando...</div>
+    </section>
+    <script src="./ex8.js"></script>
+</body>
+</html>

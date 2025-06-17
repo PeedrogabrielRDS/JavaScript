@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex21</title>
+    <link rel="stylesheet" href="./ex21.css">
+</head>
+<body>
+    <header>
+        <a href="../../index.html"><img src="../../img/JavaScript_LogoHeader.webp" alt=""></a>
+        <h1>JavaScript</h1>
+            <div id="horario"></div>
+            <nav>
+                <div id="menu" onclick="clickmenu()">
+                    <div class="linhas"></div>
+                    <div class="linhas"></div>
+                    <div class="linhas"></div>
+                </div>
+            </nav>
+    </header>
+    <section>
+        <h1>Equilátero, Isóceles ou Escaleno?</h1>
+        <p>Digite o valor do primeiro lado</p> <input type="number" id="lado1" placeholder="Lado 1">
+        <p>Digite o valor do segundo lado </p> <input type="number" id="lado2" placeholder="Lado 2">
+        <p>Digite o valor do terceiro lado</p> <input type="number" id="lado3" placeholder="Lado 3">
+        <button onclick="decisao()">Decidir</button>
+        <div id="text">Aguardando comando...</div>
+    </section>
+    <script src="./ex21.js"></script>
+    <p id="inf">Equilátero: Todos os lados são iguais* <br>
+    Isóceles: Apenas dois lados são iguais* <br>
+    Escaleno: Todos os lados são diferentes*
+    </p>
+</body>
+</html>
